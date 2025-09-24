@@ -21,10 +21,10 @@
 5. Document SPF/DKIM/DMARC failures
 
 **Key Output Indicators:**
-- ✅ SPF: PASS/FAIL status
-- ✅ DKIM: Signature verification results
-- ✅ DMARC: Policy compliance check
-- ⚠️ Routing anomalies flagged
+-  SPF: PASS/FAIL status
+-  DKIM: Signature verification results
+-  DMARC: Policy compliance check
+-  Routing anomalies flagged
 
 ### 2. Google Admin Toolbox Message Header Analyzer
 **URL:** https://toolbox.googleapps.com/apps/messageheader/
