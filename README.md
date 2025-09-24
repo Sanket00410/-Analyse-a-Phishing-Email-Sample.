@@ -10,7 +10,7 @@
 
 This project demonstrates comprehensive phishing email analysis skills through systematic examination of suspicious email samples. The analysis includes technical header verification, content assessment, and threat classification using industry-standard tools and methodologies.
 
-## 🎯 Objectives
+## Objectives
 
 - Identify phishing characteristics in email samples
 - Analyze email headers for authentication failures
@@ -18,7 +18,7 @@ This project demonstrates comprehensive phishing email analysis skills through s
 - Document findings with evidence and confidence levels
 - Provide actionable threat assessment and recommendations
 
-## 🛠️ Tools Used
+##  Tools Used
 
 ### Free Online Header Analyzers
 - **MXToolbox Email Header Analyzer** - SPF/DKIM/DMARC verification
@@ -35,33 +35,33 @@ This project demonstrates comprehensive phishing email analysis skills through s
 
 
 
-## 🔍 Key Findings Summary
+##  Key Findings Summary
 
 ### Critical Indicators Identified:
-- ✅ **Domain Spoofing** - Fake sender domain detected
-- ✅ **Authentication Failures** - SPF/DKIM/DMARC all failed  
-- ✅ **Malicious Attachments** - Double extension (.pdf.exe)
-- ✅ **Social Engineering** - Urgency and fear tactics
-- ✅ **Suspicious Links** - Redirects to malicious domains
+-  **Domain Spoofing** - Fake sender domain detected
+-  **Authentication Failures** - SPF/DKIM/DMARC all failed  
+-  **Malicious Attachments** - Double extension (.pdf.exe)
+-  **Social Engineering** - Urgency and fear tactics
+-  **Suspicious Links** - Redirects to malicious domains
 
 ### Threat Assessment:
 - **Risk Level:** CRITICAL
 - **Confidence:** 98%
 - **Action Required:** IMMEDIATE DELETION AND REPORTING
 
-## 📊 Analysis Results
+##  Analysis Results
 
-| Indicator Category | Count | Risk Level |
-|-------------------|-------|------------|
-| Critical | 5 | High Impact |
-| High | 4 | Significant |
-| Medium | 3 | Moderate |
-| Low | 1 | Minimal |
+|Indicator Category | Count | Risk Level |
+|--------------------|------|------------|
+| Critical           | 5   |High Impact |
+| High               | 4 | Significant |
+| Medium             | 3 | Moderate |
+| Low                | 1 | Minimal |
 
 **Total Indicators Found:** 13  
 **Overall Threat Score:** 9.2/10
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Email client or text editor
@@ -76,20 +76,20 @@ This project demonstrates comprehensive phishing email analysis skills through s
 5. Assess threat level and confidence
 6. Generate final report
 
-## 📋 Analysis Checklist
+##  Analysis Checklist
 
-- [x] Sender email address verification
-- [x] Display name vs actual email comparison
-- [x] Email header authentication check
-- [x] Content analysis (grammar, urgency)
-- [x] Link inspection (without clicking)
-- [x] Attachment analysis
-- [x] Social engineering assessment
-- [x] Threat level determination
-- [x] Evidence documentation
-- [x] Final report generation
+-  Sender email address verification
+-  Display name vs actual email comparison
+-  Email header authentication check
+-  Content analysis (grammar, urgency)
+- Link inspection (without clicking)
+-  Attachment analysis
+-  Social engineering assessment
+-  Threat level determination
+- Evidence documentation
+- Final report generation
 
-## 📚 References and Resources
+##  References and Resources
 
 - Anti-Phishing Working Group (APWG) 
 - NIST Cybersecurity Framework
@@ -97,7 +97,7 @@ This project demonstrates comprehensive phishing email analysis skills through s
 - Industry threat intelligence reports
 - Academic research on social engineering
 
-## 🔐 Security Notes
+##  Security Notes
 
 - **No actual malicious links were clicked during analysis**
 - **All suspicious attachments were analyzed in isolated environment**
