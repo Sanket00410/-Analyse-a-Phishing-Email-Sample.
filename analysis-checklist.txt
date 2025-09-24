@@ -183,12 +183,3 @@ If ANY of these are detected, treat as CRITICAL threat:
 □ Report quality reviewed
 □ Submission prepared for delivery
 
-==================================
-Analyst: ___________________________
-Date: _____________________________
-Start Time: _______________________
-End Time: _________________________
-Risk Level: _______________________
-Confidence: _______________________%
-Status: ___________________________
-==================================
