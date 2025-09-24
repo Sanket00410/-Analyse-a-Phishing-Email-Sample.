@@ -1,0 +1,14 @@
+Indicator_ID,Category,Indicator_Type,Evidence,Risk_Level,Confidence,CVSS_Score,Detection_Method,Mitigation
+IND-001,Email Authentication,SPF Failure,SPF: FAIL - paypa1-security.com not authorized for 192.168.1.100,CRITICAL,100,9.0,Header analysis with MXToolbox,Implement SPF records correctly
+IND-002,Email Authentication,DKIM Failure,DKIM: FAIL - signature verification failed,CRITICAL,100,9.0,Header analysis with Google Admin Toolbox,Configure DKIM signing properly
+IND-003,Email Authentication,DMARC Failure,DMARC: FAIL - SPF and DKIM alignment failed,CRITICAL,100,9.0,DMARC policy verification,Enforce strict DMARC policy
+IND-004,Sender Analysis,Domain Spoofing,paypa1-security.com (number 1 instead of letter l),CRITICAL,95,8.5,Domain comparison and character analysis,User training on domain spoofing
+IND-005,Sender Analysis,Display Name Mismatch,"Display: PayPal Security Team, Email: security-alert@paypa1-security.com",HIGH,90,7.0,Header field comparison,Email gateway filtering
+IND-006,Content Analysis,Spelling Errors,"accont, temporarly, reguards - multiple typos found",MEDIUM,80,4.0,Content scanning and spell check,Spell-check awareness training
+IND-007,Content Analysis,Generic Greeting,Dear Valued Customer - generic greeting used,LOW,70,2.0,Personalization analysis,Personalization verification
+IND-008,Content Analysis,Urgent Language,"URGENT, Immediate Action Required, 24-hour deadline",HIGH,85,6.5,Language pattern recognition,Urgency skepticism training
+IND-009,URL Analysis,Suspicious Domain,"malicious-site.ru - Russian TLD, suspicious domain",CRITICAL,95,8.5,URL parsing and domain verification,URL reputation checking
+IND-010,URL Analysis,Malicious Links,http://paypal-verification.malicious-site.ru/verify.php,CRITICAL,95,8.5,Link destination analysis,Link analysis before clicking
+IND-011,Attachment Analysis,Malware Attachment,Account_Verification.pdf.exe - double extension malware,CRITICAL,100,9.5,File extension and metadata analysis,Attachment scanning and sandboxing
+IND-012,Social Engineering,Fear Tactics,"permanent account closure, loss of all funds",HIGH,90,7.5,Psychological tactic identification,Social engineering awareness
+IND-013,Social Engineering,Authority Impersonation,claiming to be PayPal Security Team,HIGH,85,7.0,Brand impersonation detection,Brand verification procedures

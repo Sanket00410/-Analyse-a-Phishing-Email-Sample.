@@ -1,0 +1,194 @@
+PHISHING EMAIL ANALYSIS CHECKLIST
+==================================
+
+## Pre-Analysis Setup
+□ Secure analysis environment prepared
+□ Analysis tools bookmarked and accessible
+□ Documentation templates ready
+□ Time allocated for thorough analysis (45-60 minutes)
+□ Network monitoring disabled (to avoid accidentally clicking links)
+
+## Phase 1: Initial Assessment (5 minutes)
+□ Sender email address reviewed
+□ Display name vs actual email compared
+□ Subject line analyzed for urgency/threats
+□ Initial risk level assigned (LOW/MEDIUM/HIGH/CRITICAL)
+□ Decision made to proceed with full analysis
+
+## Phase 2: Technical Header Analysis (10-15 minutes)
+□ Complete email headers extracted
+□ SPF (Sender Policy Framework) results checked
+□ DKIM (DomainKeys Identified Mail) results verified
+□ DMARC (Domain-based Message Authentication) compliance confirmed
+□ Routing path examined for anomalies
+□ Originating IP addresses verified
+□ Timestamp analysis completed
+□ Authentication failures documented
+
+## Phase 3: Sender Analysis (5-10 minutes)
+□ Domain spoofing techniques checked:
+  □ Character substitution (0 for O, 1 for l, rn for m)
+  □ Additional subdomains examined
+  □ Alternative TLDs checked
+  □ Typosquatting patterns identified
+□ Display name mismatch documented
+□ Sender authority verified (if known contact)
+□ Normal communication patterns compared
+
+## Phase 4: Content Analysis (10-15 minutes)
+□ Language quality assessed:
+  □ Spelling errors identified
+  □ Grammar mistakes documented
+  □ Unnatural phrasing noted
+  □ Professional tone evaluated
+□ Social engineering tactics identified:
+  □ Fear-based language (account suspension, legal action)
+  □ Urgency creation (deadlines, immediate action)
+  □ Authority exploitation (executive, government, IT)
+  □ Curiosity/greed appeals (prizes, exclusive offers)
+□ Personalization level assessed:
+  □ Generic vs specific greetings
+  □ Use of recipient's actual name
+  □ Reference to specific accounts/services
+□ Brand impersonation techniques documented
+
+## Phase 5: Link and Attachment Analysis (10 minutes)
+**CRITICAL: NEVER CLICK SUSPICIOUS LINKS OR OPEN ATTACHMENTS**
+
+□ Link analysis completed (hover only):
+  □ URL destinations examined
+  □ Domain reputation checked
+  □ Shortened URLs expanded safely
+  □ SSL certificate status noted
+  □ Comparison with legitimate URLs done
+□ Attachment analysis completed:
+  □ File extensions verified (especially double extensions)
+  □ File sizes checked for anomalies
+  □ Attachment necessity assessed
+  □ Sender authority to send attachments verified
+  □ File scanning results documented (if available)
+
+## Phase 6: Evidence Documentation (5-10 minutes)
+□ Email headers preserved in full
+□ Screenshots taken of email content
+□ Link destinations documented (without accessing)
+□ Attachment information recorded
+□ Social engineering tactics catalogued
+□ Technical evidence compiled
+□ Analysis timestamps recorded
+
+## Phase 7: Risk Assessment (5 minutes)
+□ Individual indicator scores assigned
+□ Category weights applied:
+  □ Authentication Failure (25%)
+  □ Domain Spoofing (20%)
+  □ Malicious Payload (25%)
+  □ Social Engineering (15%)
+  □ Content Quality (10%)
+  □ Sender Verification (5%)
+□ Overall risk score calculated
+□ Risk classification assigned:
+  □ LOW (0-3): Likely legitimate
+  □ MEDIUM (4-6): Suspicious, requires caution
+  □ HIGH (7-8): Likely phishing, avoid interaction
+  □ CRITICAL (9-10): Confirmed phishing, immediate action
+□ Confidence level assessed (percentage)
+
+## Phase 8: Response Actions
+□ Immediate containment actions taken:
+  □ No links clicked
+  □ No attachments opened
+  □ No replies sent
+□ Reporting completed:
+  □ IT Security team notified
+  □ Anti-phishing services contacted
+  □ Email provider reported (if applicable)
+  □ Colleagues alerted (if targeted attack)
+□ Email handling:
+  □ Email documented before deletion
+  □ Secure deletion completed
+  □ Evidence preserved for investigation
+
+## Quality Assurance Checklist
+□ All authentication protocols verified
+□ Multiple analysis tools used for cross-verification
+□ Social engineering tactics thoroughly assessed
+□ Risk scoring calculations double-checked
+□ Evidence properly documented and preserved
+□ Recommended actions clearly specified
+□ Analysis time recorded for process improvement
+□ Tool effectiveness noted for future reference
+
+## Post-Analysis Learning
+□ New phishing techniques identified and documented
+□ Tool effectiveness assessed and recorded
+□ Analysis methodology refined based on findings
+□ Knowledge base updated with new indicators
+□ Lessons learned documented for team sharing
+
+## Common Red Flags Checklist
+□ Authentication Failures:
+  □ SPF: FAIL
+  □ DKIM: FAIL
+  □ DMARC: FAIL
+□ Domain Spoofing Indicators:
+  □ Character substitution (amaz0n.com)
+  □ Additional subdomains (paypal.security-update.com)
+  □ Foreign TLD (.ru, .tk, .ml)
+  □ Suspicious registrar or creation date
+□ Content Red Flags:
+  □ "Dear Customer" or generic greeting
+  □ Urgent action required language
+  □ Threats of account closure/suspension
+  □ Grammar/spelling errors
+  □ Mismatched branding elements
+□ Technical Red Flags:
+  □ Suspicious originating IP
+  □ Private IP in public routing
+  □ Missing reverse DNS
+  □ Unusual routing patterns
+□ Behavioral Red Flags:
+  □ Unexpected communication from known contact
+  □ Requests outside normal patterns
+  □ Bypass of normal approval processes
+  □ Pressure for immediate action without verification
+
+## Emergency Response Indicators
+If ANY of these are detected, treat as CRITICAL threat:
+□ Executable attachments (.exe, .scr, .bat)
+□ Double file extensions (.pdf.exe, .doc.scr)
+□ All authentication protocols failed
+□ Known malicious domains in links
+□ Active credential harvesting attempts
+□ Ransomware indicators in attachments
+□ CEO fraud/wire transfer requests
+□ Mass distribution to organization
+
+## Documentation Standards
+□ Analysis start and end times recorded
+□ All tools used documented with versions
+□ Screenshots taken of key evidence
+□ Chain of custody maintained
+□ Confidence levels assigned to each finding
+□ Risk scores calculated using standard methodology
+□ Recommendations specific and actionable
+□ Report formatted for professional presentation
+
+## Final Verification
+□ All checklist items completed
+□ Evidence securely stored
+□ Risk assessment validated
+□ Actions taken documented
+□ Lessons learned recorded
+□ Report quality reviewed
+□ Submission prepared for delivery
+
+==================================
+Analyst: ___________________________
+Date: _____________________________
+Start Time: _______________________
+End Time: _________________________
+Risk Level: _______________________
+Confidence: _______________________%
+Status: ___________________________
+==================================

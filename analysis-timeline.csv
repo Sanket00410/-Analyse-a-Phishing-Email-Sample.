@@ -1,0 +1,8 @@
+Time_IST,Activity,Tools_Used,Key_Findings
+10:00,Email sample received and initial review started,"Email client, Text editor",Initial suspicious indicators noted
+10:05,Email headers extracted and authentication analysis begun,"MXToolbox, Google Admin Toolbox",All authentication protocols failed (SPF/DKIM/DMARC)
+10:15,Header analysis completed using online tools,"Microsoft Header Analyzer, EasyDMARC",Domain spoofing confirmed (paypa1-security.com)
+10:25,Content analysis and social engineering assessment,Manual content analysis,Multiple social engineering tactics identified
+10:35,Link and attachment analysis (safe methods only),URL analysis tools (no direct access),Malicious URLs and executable attachment found
+10:42,Evidence documentation and risk scoring,"CSV tools, Documentation platform","13 total indicators, 9.2/10 risk score"
+10:45,Final report compilation and review completed,"Markdown editor, Final review","CRITICAL threat confirmed, immediate action required"
