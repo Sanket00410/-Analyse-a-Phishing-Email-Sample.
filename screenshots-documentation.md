@@ -1,5 +1,5 @@
 
-# Screenshots Documentation for Phishing Email Analysis
+# Documentation for Phishing Email Analysis
 
 ## 📸 Screenshot Collection
 
@@ -87,17 +87,6 @@ Each screenshot provides visual evidence of:
 - ✅ Tool usage proficiency
 - ✅ Systematic analysis approach
 - ✅ Professional documentation standards
-
-## 📝 Screenshot Metadata
-
-| Screenshot | Tool Used | Key Evidence | Risk Indicator |
-|------------|-----------|--------------|----------------|
-| mxtoolbox-analysis.png | MXToolbox | SPF/DKIM/DMARC FAIL | CRITICAL |
-| phishing-email-sample.png | Email Client | Domain spoofing | CRITICAL |
-| google-toolbox-analysis.png | Google Toolbox | Routing analysis | HIGH |
-| domain-spoofing-comparison.png | Manual Analysis | Character substitution | CRITICAL |
-| microsoft-header-analyzer.png | Microsoft Tool | Authentication failure | CRITICAL |
-| attachment-analysis.png | Security Tool | Malicious attachment | CRITICAL |
 
 ## 🎯 Professional Usage
 
